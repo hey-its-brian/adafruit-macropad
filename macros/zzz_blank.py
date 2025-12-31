@@ -1,13 +1,9 @@
-# SPDX-FileCopyrightText: 2021 Victor Toni - GitHub @vitoni
-#
-# SPDX-License-Identifier: MIT
+# Brian Meyer 2025
+# Blank model for blacking out pad when not in use
 
-# MACROPAD Hotkeys example: blank screen for idle
-
-
-app = {                      # REQUIRED dict, must be named 'app'
-    'name' : '',             # Application name
-    'macros' : [             # List of button macros...
+app = {
+    'name' : '', 
+    'macros' : [
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
         (0x000000, '',          []),
